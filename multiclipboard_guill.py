@@ -1,5 +1,7 @@
 import sys
 import json
+
+# pip install clipboard is needed.
 import clipboard
 
 SAVED_DATA = "multiclipboard.json"
@@ -20,6 +22,9 @@ if __name__ == "__main__":
         except:
             return {}
 
+# Check the length of the #python3 multiclipboard_guill.py script/program
+# So the first (0) argement is the "multiclipboard_guill.py"
+# Second argument is "save", "load" or "list"
 
 if len(sys.argv) == 2:
 
